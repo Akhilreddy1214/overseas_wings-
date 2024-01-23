@@ -1,0 +1,215 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            width: 100%;
+            max-width: 600px; 
+            margin: auto;
+        }
+
+        .form .input-span {
+            gap: .5rem;
+        }
+
+        form input[type="email"],
+        form input[type="password"],
+        form input[type="tel"] {
+            border-radius: 0.5rem;
+            padding: 8px;
+            width: 100%;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 8px;
+        }
+
+        form .submit,
+        form .loginotp {
+            padding: 10px;
+            width: 100%;
+            gap: 0.5rem;
+            border-radius: 3rem;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1rem;
+            color: white;
+            background-color: blue;
+            border: none;
+        }
+
+        form .submit:hover,
+        form .loginotp:hover {
+         color: blue;
+         background-color: white;
+         border:  1px solid rgba(0, 0, 0, 0.2);
+            
+        }
+
+        .col-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <!-- Logo and Brand -->
+        <a class="navbar-brand d-flex justify-content-center align-items-center" href="./indexhome.html" id="logo">
+          <img src="../Overseases Wings-01.svg" alt="" width="200px" height="80px" />
+        </a>
+      
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav menunav">
+          
+            <li class="nav-item">
+              <a class="nav-link" href="../indexhome.html">Home</a>
+            </li>
+           
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Our Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li> <a class="dropdown-item" href="../prep/prep.html">Test Preparation</a> </li>
+                  <li><a class="dropdown-item" href="../educationloans/educationloan.html">Education Loan</a></li>
+                  <li><a class="dropdown-item" href="../SOP SERVICES/SOP.html">SOP Services</a></li>
+                  <li><a class="dropdown-item" href="../LORSERVICES/LOR.html">LOR Writing Services</a></li>
+                  <li><a class="dropdown-item" href="../guide/guide.html">Guidance</a></li>
+                 
+
+                 
+                </ul>
+              </li>
+           
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Courses</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../mastersdegree/masters.html">MASTERS</a>
+                </li>
+           
+                <li>
+                  <a class="dropdown-item" href="../bachelorsdegree/bachelors.html">BACHELORS</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../PHD DEGREE/PHD.html">Ph.D(DOCTORAL)</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Countries
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../universities/AUSTRALIA/AUSTRALIA.HTML">
+                    AUSTRALIA</a></li>
+                <li><a class="dropdown-item" href="../universities/USA/USA.html"> USA </a></li>
+                <li><a class="dropdown-item" href="../universities/UK/UK.html"> UK</a></li>
+                <li><a class="dropdown-item" href="../universities/canada/canada.html"> CANADA</a></li>
+                <li><a class="dropdown-item" href="../universities/NEWZEALAND/NEWZEALAND.html">
+                    NEWZELAND</a></li>
+                <li><a class="dropdown-item" href="../universities/ireland/ireland.html"> IRELAND</a></li>
+                <li><a class="dropdown-item" href="../universities/sweeden/sweeden.html"> SWEEDEN</a></li>
+                <li><a class="dropdown-item" href="../universities/france/france.html">FRANCE</a></li>
+                <li><a class="dropdown-item" href="../universities/germany/germany.html"> GERMANY</a></li>
+              </ul>
+            </li>
+         
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">WORK WITH
+                US</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">BECOME A PARTNER</a></li>
+                <li><a class="dropdown-item" href="#">BECOME A MENTOR</a></li>
+                <li><a class="dropdown-item" href="#">BECOME A COUNSELLOR</a></li>
+              </ul>
+            </li> -->
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="../about us/aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../contactus/contact.html">Contact </a>
+            </li>
+           
+          </ul>
+
+          <ul class="navbar-nav buttonnav">
+            <li class="nav-item">
+              <a href="../loginpage.html" class="btn LOGIN  rounded-pill  " type="button">Login</a>
+            </li>
+            <li class="nav-item">
+              <a href="../signup page.html" class="btn LOGIN rounded-pill   " type="button">Sign Up</a>
+            </li>
+          </ul>
+          <!-- Signup Button on the right -->
+        
+        </div>
+      </div>
+    </nav>
+  </header>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 p-5 d-flex align-items-center">
+                <div class="container d-flex flex-column align-items-center justify-content-center p-3">
+                    <!-- <div class="ed-img p-2">
+                        <img src="./Overseas Wings Final-07 (2).png" alt="" width="100px" height="100px" />
+                    </div> -->
+
+                    <form class="form mt-5">
+                        <p class="text-center fs-5"><span><i class="bi bi-lock-fill fs-5 mx-2"></i></span>Login to Your Student Account</p>
+                        <span class="input-span">
+                            <input type="email" name="email" id="email" placeholder="Enter Your Email / Mobile Number" required />
+                        </span>
+                        <span class="input-span">
+                            <input type="password" name="password" id="password" placeholder="Enter Your Password" required />
+                        </span>
+
+                        <p class="w-90" style="text-align: right; color: blue; text-decoration: none;">
+                            <a href="#" style="text-decoration: none; color: blue;">Forgot password?</a>
+                        </p>
+                        <input class="submit" type="submit" value="Continue" />
+                        <!-- <input class="loginotp" type="submit" value="Login with OTP" /> -->
+                        <p class="text-center">
+                            Don't have an account?
+                            <a href="./signup page.html" class="text-decoration-none fs-6 fw-bold">Sign up</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center">
+                <img src="./Overseases Wings-01.svg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

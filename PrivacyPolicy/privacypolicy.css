@@ -1,0 +1,88 @@
+
+.MASTERS {
+  /* background-image: url('../images/webImages/Framesop\ banner.svg'); */
+        height: 80vh;
+       background-color:rgba(255, 187, 0, 0.288);
+        display: flex;
+
+    max-width: 100%;
+        justify-content: space-between;
+        align-items: center;
+      
+    }
+
+.ourservices{
+  color: #D19500;
+  font-size: 40px;
+}
+.srvcbtn a{
+  color: white;
+  background-color: #D19500;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.srvcbtn a:hover{
+  color:  #D19500;
+  background-color: #fffefd;
+  border-radius: 10px;
+  /* text-decoration: underline; */
+}
+
+.privacy {
+    background-image: url('/images/works.banner.jpg');
+          height: 60vh;
+          width: 100%;
+          overflow: hidden;
+          display: flex;
+      align-items: center;
+          justify-content: center;
+         background-size: cover;
+         background-repeat: no-repeat;
+      }
+      p{
+        font-size: 17px;
+      }
+
+
+      @media screen and (min-width:768px) and (max-width:1024px) {
+        .container-fluid.MASTERS {
+          height: auto; /* Adjust height for smaller screens */
+        
+          text-align: center; /* Center text */
+        }
+        .ourservices {
+          font-size: 35px; /* Adjust font size for smaller screens */
+        }
+        
+      }
+       @media only screen and (max-width: 767px) {
+        .container-fluid.MASTERS {
+          height: auto; /* Adjust height for smaller screens */
+          flex-direction: column; /* Stack elements vertically */
+          text-align: center; /* Center text */
+        }
+      .MASTERS img{
+        width: 300px ;
+        height: auto;
+      }
+        .col-md-6 {
+          width: 100%; /* Make columns full width on small screens */
+          margin: 0; /* Remove margin on small screens */
+        }
+      
+        .ourservices {
+          font-size: 20px; /* Adjust font size for smaller screens */
+        }
+      
+        .srvcbtn {
+          margin-top: 20px;
+          /* Add space between text and button */
+        }
+        .srvcbtn a{
+          font-size: 12px;
+        }
+      
+        p {
+          font-size: 16px; /* Adjust font size for paragraphs on small screens */
+        }
+      }

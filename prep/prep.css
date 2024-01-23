@@ -1,0 +1,136 @@
+
+
+.prep{
+    background-image: url(/images/PREP\ BANNER.jpg);
+}
+.prepmodules{
+  
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.prepbtn button{
+  width: fit-content;
+  background-color: #212529;
+  border-radius: 15px;
+
+
+   
+}
+.prepbtn button:hover{
+  width: fit-content;
+  background-color: #212529;
+  border-radius: 15px;
+
+
+   
+}
+.prepbtn a{
+    text-decoration: none ;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 15px;
+
+
+}
+/* .prepbtn  button:hover{
+    text-decoration: none ;
+    color: rgb(247, 244, 244);
+    background-color:gold;
+    font-size: 18px;
+    font-weight: 400;
+   
+} */
+.prepcard{
+  background-color: rgba(236, 230, 230, 0.501);
+}
+.prepcard .card-body{
+  text-align: center;
+}
+.prepcard .row .card{
+    border-top:3px solid black;
+    border-radius: 10px;
+  }
+.prepcardrow .card-body .prepHEAD{
+  color: #bc6d00;
+}
+.prepcardrow .card img{
+  /* height: 150px;
+  width: 150px; */
+padding-top: 10px;
+ margin: auto;
+}
+.accordion-header .accordion-button{
+  font-size: 17PX;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.prof{
+background-image: url(/assets/prof\ back.jpg);
+background-size: cover;
+
+}
+p{
+  font-size: 17px;
+}
+.number-font{
+  color:#ffbf00 ;
+  font-size: 45px;
+}
+
+.prepwidget{
+  background-color: rgba(154, 204, 221,0.1);
+}
+/*    footer    */
+
+.textwidget-link a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  margin: 3px;
+  text-align: center;
+}
+/* .CORPORATE {
+  letter-spacing: 1px;
+  color: #fce1a7;
+}
+.followus {
+  color: #fce1a7;
+}
+.textwidget-link h4 {
+  color: #fce1a7;
+}
+.footer-head{
+  color: #fce1a7;
+} */
+/* .form-head {
+  border-bottom: 2px solid rgb(255, 221, 0);
+  
+} */
+.prep-advcard  img{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+
+  
+@media screen and (max-width: 680px) {
+
+.prepbuttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.textwidget-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+}

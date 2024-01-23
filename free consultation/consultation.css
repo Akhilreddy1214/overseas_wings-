@@ -1,0 +1,43 @@
+/* .consulting{
+ background-image: url('../images/webImages/GroupBACHELORSDEG.svg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ z-index: -4;
+ opacity: 0.2;
+ width: 100%;
+ height: auto;
+ position: absolute;
+
+ 
+} */
+/* .consultrow{
+  position: relative;
+  z-index: 99;
+} */
+.form-label{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+.custom-card {
+    
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 252, 252);
+  }
+  
+  .custom-card .card-body {
+    flex: 1;
+  }
+  
+  .consult-work{
+    background-color: rgb(88, 87, 87);
+  }
+  .consult-work .card{
+    border: none;
+    background-color: rgb(88, 87, 87);
+  }
+  p{
+    font-size: 17px;
+  }
+  

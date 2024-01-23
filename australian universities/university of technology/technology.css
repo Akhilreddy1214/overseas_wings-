@@ -1,0 +1,17 @@
+p{
+    font-size: 17px;
+}
+.programs li{
+    font-size: 17px;
+    margin-top: 6px;
+}
+.tabs .nav-link{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  .docs li{
+    font-size: 17px;
+    margin-top: 8px;
+}

@@ -1,0 +1,147 @@
+.MASTERS {
+    /* background-image: url('../images/webImages/Framesop\ banner.svg'); */
+    height: 80vh;
+    background-color:rgba(255, 187, 0, 0.288);
+     display: flex;
+
+ max-width: 100%;
+     justify-content: space-between;
+     align-items: center;
+   
+ }
+
+.ourservices{
+    color: #D19500;
+    font-size: 40px;
+}
+.srvcbtn a{
+    color: white;
+    background-color: #D19500;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.srvcbtn a:hover{
+    color:  #D19500;
+    background-color: #fffefd;
+    border-radius: 10px;
+    /* text-decoration: underline; */
+}
+     
+    p{
+        font-size: 17px;
+      }
+      .get li{
+        font-size: 17px;
+      }
+      .liimg .get h5{
+        margin-top: 15px;
+      }
+
+
+
+    /* .sopcard {
+        position: relative;
+        width: 100%;
+       
+        margin: auto;
+    }
+
+    .sopcard .img-fluid {
+        width: 80%;
+       height: auto;
+        display: block;
+    }
+
+    .sopcard .card {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 50%;
+      
+    
+        transform: translate(0, -50%);
+        background-color: rgb(255, 255, 255);
+        
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+    } */
+    .liimg ul li{
+        margin-top: 5px;
+    }
+    
+    .sopimg{
+        float: right;
+        clear: right;
+        width: 400px;
+        height: 350px;
+        /* background-color:rgba(255, 187, 0, 0.092); */
+    }
+
+    @media (max-width: 1200px) {
+        .sopcard .card {
+            position: static;
+            transform: none;
+            margin-top: 20px;
+            width: 100%;
+            max-width: auto;
+        }
+        .sopcard .img-fluid{
+width: 100%;
+        }
+        .liimg ul li{
+            width: 95%;
+        }
+       
+    }
+    @media screen and (min-width:768px) and (max-width:1024px) {
+      .container-fluid.MASTERS {
+       height: auto;/* Adjust height for smaller screens */
+      width: 100%;
+        text-align: center; /* Center text */
+      }
+      .ourservices {
+        font-size: 25px; /* Adjust font size for smaller screens */
+      }
+      .srvcbtn {
+        margin-top: 20px;
+
+        /* Add space between text and button */
+      }
+      .srvcbtn a{
+        font-size: 12px;
+      }
+      
+    }
+     @media only screen and (max-width: 767px) {
+      .container-fluid.MASTERS {
+        height: auto; /* Adjust height for smaller screens */
+        flex-direction: column; /* Stack elements vertically */
+        text-align: center; /* Center text */
+      }
+    .MASTERS img{
+      width: 80% ;
+      height: auto;
+    }
+      .col-md-6 {
+        width: 100%; /* Make columns full width on small screens */
+        margin: 0; /* Remove margin on small screens */
+      }
+    
+      .ourservices {
+        font-size: 20px; /* Adjust font size for smaller screens */
+      }
+    
+      .srvcbtn {
+        margin-top: 20px;
+
+        /* Add space between text and button */
+      }
+      .srvcbtn a{
+        font-size: 12px;
+      }
+    
+      p {
+        font-size: 16px; /* Adjust font size for paragraphs on small screens */
+      }
+    }

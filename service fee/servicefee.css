@@ -1,0 +1,18 @@
+
+.Workmain {
+    background-image: url('/images/works.banner.jpg');
+          height: 80vh;
+          overflow: hidden;
+          display: flex;
+      align-items: center;
+          justify-content: center;
+         background-size: cover;
+         background-repeat: no-repeat;
+      }
+     
+    p{ 
+        font-size: 17px;
+    }
+    .list-group li{
+        background-color: rgb(223, 144, 6);
+    }

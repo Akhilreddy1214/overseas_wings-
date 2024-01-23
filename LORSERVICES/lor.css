@@ -1,0 +1,157 @@
+.MASTERS {
+  /* background-image: url('../images/webImages/Framesop\ banner.svg'); */
+        height: 80vh;
+       background-color:rgba(255, 187, 0, 0.288);
+        display: flex;
+
+    max-width: 100%;
+        justify-content: space-between;
+        align-items: center;
+      
+    }
+      
+      .ourservices{
+        color: #D19500;
+        font-size: 40px;
+    }
+    .srvcbtn a{
+        color: white;
+        background-color: #D19500;
+        border-radius: 10px;
+        font-weight: 500;
+    }
+    .srvcbtn a:hover{
+        color:  #D19500;
+        background-color: #fffefd;
+        border-radius: 10px;
+        /* text-decoration: underline; */
+    }
+
+
+      .start button{
+        width: fit-content;
+        background-color:rgb(255, 208, 1);
+       
+    }
+    .start button:hover{
+        width: fit-content;
+        background-color: #212529;
+       
+    }
+    .start a{
+        text-decoration: none ;
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0 15px;
+    }
+    p{
+        font-size: 17px;
+      }
+      .get li{
+        font-size: 17px;
+      }
+
+
+
+    .sopcard {
+        position: relative;
+        width: 100%;
+       
+        margin: auto;
+    }
+
+    .sopcard .img-fluid {
+        width: 80%;
+       height: auto;
+        display: block;
+    }
+
+    .sopcard .card {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 50%;
+      
+    
+        transform: translate(0, -50%);
+        background-color: rgb(255, 255, 255);
+        
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+    }
+    .liimg ul li{
+        margin-top: 10px;
+    }
+    .sopimg{
+        float: right;
+        clear: right;
+        width: 500px;
+        height: 400px;
+        background-color:rgba(255, 187, 0, 0.096);
+    }
+
+    @media (max-width: 1200px) {
+        .lor{
+            height: auto;
+        }
+        .lor img{
+            width: auto ;
+        }
+        .sopcard .card {
+            position: static;
+            transform: none;
+            margin-top: 20px;
+            width: 100%;
+            max-width: auto;
+        }
+        .sopcard .img-fluid{
+width: 100%;
+        }
+        .ourservices{
+            font-size: 30px;
+        }
+        
+    }
+    @media screen and (min-width:768px) and (max-width:1024px) {
+      .container-fluid.MASTERS {
+        height: auto; /* Adjust height for smaller screens */
+      
+        text-align: center; /* Center text */
+      }
+      .ourservices {
+        font-size: 35px; /* Adjust font size for smaller screens */
+      }
+      
+    }
+     @media only screen and (max-width: 767px) {
+      .container-fluid.MASTERS {
+        height: auto; /* Adjust height for smaller screens */
+        flex-direction: column; /* Stack elements vertically */
+        text-align: center; /* Center text */
+      }
+    .MASTERS img{
+      width: 300px ;
+      height: auto;
+    }
+      .col-md-6 {
+        width: 100%; /* Make columns full width on small screens */
+        margin: 0; /* Remove margin on small screens */
+      }
+    
+      .ourservices {
+        font-size: 20px; /* Adjust font size for smaller screens */
+      }
+    
+      .srvcbtn {
+        margin-top: 20px;
+        /* Add space between text and button */
+      }
+      .srvcbtn a{
+        font-size: 12px;
+      }
+    
+      p {
+        font-size: 16px; /* Adjust font size for paragraphs on small screens */
+      }
+    }

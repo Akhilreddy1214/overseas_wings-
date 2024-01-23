@@ -1,0 +1,327 @@
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+  z-index: 999;
+}
+.fixed-header {
+  background-color: rgb(255, 255, 255);
+  z-index: 999;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: 80px;
+  margin-left: 0;
+}
+
+#logo {
+  color: #010101;
+}
+
+.menunav {
+  margin-left: 0;
+  margin-right: auto;
+}
+.buttonnav {
+  margin-inline-end: 0;
+}
+
+#menu {
+  margin-left: auto;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-color: #343a40;
+}
+.navbar-nav .nav-item {
+  margin-right: 20px;
+}
+
+.menunav .nav-item a {
+  color: #090909 !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  
+}
+
+.buttonnav .nav-link {
+  color: #000000 !important;
+  font-size: 16px !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #625e5e !important;
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: #ececec;
+  z-index: 999;
+}
+
+.navbar-nav .dropdown-item {
+  color: #0c0c0c !important;
+  font-size: 15px;
+  font-weight: 500;
+  /* margin: auto; */
+}
+
+.navbar-nav .dropdown-item:hover {
+  color: #f8f6f0 !important;
+  background-color: #212529;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  text-align: center;
+}
+
+#navbarNav .nav-item {
+  /* margin-top: 2px; */
+  margin-top: 0;
+  margin-bottom: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#navbarNav .nav-item:hover {
+  /* margin-top: 2px; */
+  margin-bottom: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+tr,td,th{
+  text-align: center;
+  /* padding: 5px; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+
+.textwidget-link a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+
+  font-size: 17px;
+}
+.CORPORATE {
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.followus {
+  color: #d19500;
+  font-size: 18px;
+  text-transform: lowercase;
+}
+.textwidget-link h4 {
+  color:  #efcf00;
+  text-align: left;
+
+}
+.textwidget-link{
+  text-align: left;
+}
+
+.textwidget-link .link a{
+  margin-top: 7px;
+  
+}
+.textwidget-link .link a:hover{
+ color:  #efcf00;
+  text-decoration: underline;
+}
+.site-footer {
+  background-color:black;
+}
+.footer-head {
+  color: #fce1a7;
+  font-size: 20px;
+}
+.address {
+  font-size: 17px;
+  text-align: center;
+}
+
+.address img {
+  margin: auto;
+  width: 120px;
+  height: auto;
+  background-color: white;
+  border-radius: 5px;
+}
+.sc-icons:hover {
+  background-color: white;
+  pad: 2px;
+}
+a {
+  text-decoration: none;
+}
+
+.LOGIN {
+  margin-left: 10px;
+  margin-right: auto;
+  color: black;
+  font-weight: 500;
+
+ 
+}
+.LOGIN:hover {
+  background-color: #efcf00;
+  margin-left: 10px;
+  margin-right: auto;
+  color: WHITE;
+  font-weight: bold;
+}
+.start button {
+  width: fit-content;
+  background-color: #efcf00;
+}
+.start button:hover {
+  width: fit-content;
+  background-color:  #efcf00;
+}
+.start a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 5px;
+}
+.start a:hover {
+  text-decoration: underline;
+}
+
+#goToTopButton {
+  position: fixed;
+  bottom: 12px;
+  right: 15px;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(76, 75, 75);
+  z-index: 2;
+  opacity: 0; /* Initially set to be invisible */
+  transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+#goToTopButton.visible {
+  opacity: 1; /* Make the button visible when the 'visible' class is added */
+}
+.whatsapp-icon {
+  position: fixed;
+  bottom: 70px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  background-image: url("https://cdn.iconscout.com/icon/free/png-512/free-whatsapp-135-493160.png?f=webp&w=256"); /* Add the path to your WhatsApp icon image */
+   background-size: cover;
+  cursor: pointer;
+  z-index: 2;
+ 
+}
+
+/* Tooltip style */
+.tooltip {
+  display: none;
+  position: absolute;
+  bottom: 100%; /* Position above the icon */
+  right: 50%;
+  transform: translateX(50%); /* Center horizontally */
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Tooltip display on hover */
+.whatsapp-icon:hover .tooltip {
+  display: block;
+}
+.frmhd{
+  background-color: #d19500;
+}
+.frmsbmt{
+  background-color: #d19500;
+  color: white;
+  font-weight: 500;
+}
+.frmsbmt:hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  color: #d19500;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1300px) {
+  iframe {
+  
+    width: auto;
+    height: 100%;
+  }
+}
+@media screen and (max-width:768px) {
+  
+  h1,h2,h3{
+    font-size: 21px;
+  }
+  h4,h5,h6{
+    font-size: 29px;
+  }
+  p{
+    font-size: 16px;
+  }
+  li{
+    font-size: 15px;
+  }
+
+  li a{
+    font-size: 14px;
+  }
+  tr,td,th{
+   font-size: 15px;
+    /* padding: 5px; */
+  }
+  button , .btn{
+    font-size: 16px;
+  }
+}
+
+
+
+@media screen and (max-width: 576px) {
+  .textwidget-link h4 {
+    color: #d19500;
+    text-align: left;
+  
+  }
+  .textwidget-link{
+    text-align: left;
+  }
+  .address {
+    font-size: 17px;
+    text-align: left;
+  }
+}
+@media screen and (min-width:576px) and (max-width:980px) {
+  .address{
+    text-align: left;
+  }
+}

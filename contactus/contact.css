@@ -1,0 +1,71 @@
+.form-control {
+  background-color: rgb(255, 255, 255);
+}
+.form-select{
+  background-color: rgb(254, 255, 255);
+}
+.custom-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(237, 232, 232, 0.5);
+}
+
+.custom-card .card-body {
+  flex: 1;
+}
+.Contact{
+  /* background-color: rgb(24, 94, 185); */
+ 
+  border-radius: 25px;
+ 
+}
+.srvcbtn a{
+  color: white;
+  background-color: #D19500;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.srvcbtn a:hover{
+  color:  #D19500;
+  background-color: #fffefd;
+  border-radius: 10px;
+  /* text-decoration: underline; */
+}
+.ContactLink{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-top: 25px;
+  text-decoration: none;
+}
+.ContactLink svg{
+  color: black;
+}
+
+.form-label-contact{
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.form-control-contact{
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.4);
+  border-radius: 7px;
+  font-size: 17px;
+  padding: 5px;
+  background-color: rgba(192, 214, 222,0.2);
+  
+}
+.form-control-contact:focus{
+  border:1px solid rgba(0,0,0,0.4);
+  outline:none;
+}
+.form-control-contact:focus::placeholder {
+  color: transparent;
+}
+.contact_form{
+  border-radius: 10px;
+  width: 90%;
+}
+/* .contactcol{
+  background-color: #ffc80037;
+} */
